@@ -1,0 +1,14 @@
+8,9c8,9
+< static const char *fonts[]          = { "monospace:size=10" };
+< static const char dmenufont[]       = "monospace:size=10";
+---
+> static const char *fonts[]          = { "Cantarell-Regular:size=11" };
+> static const char dmenufont[]       = "Cantarell-Regular:size=11";
+47c47
+< #define MODKEY Mod1Mask
+---
+> #define MODKEY Mod4Mask
+60c60
+< static const char *termcmd[]  = { "st", NULL };
+---
+> static const char *termcmd[]  = { "urxvt", NULL };
