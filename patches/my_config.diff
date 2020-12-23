@@ -1,5 +1,5 @@
---- config.def.h	2020-12-17 11:23:13.869999988 +0530
-+++ config.h	2020-12-20 18:02:47.033333329 +0530
+--- config.def.h	2020-12-23 18:21:40.550000002 +0530
++++ config.def.h	2020-12-23 18:47:14.276666729 +0530
 @@ -5,8 +5,8 @@
  static const unsigned int snap      = 32;       /* snap pixel */
  static const int showbar            = 1;        /* 0 means no bar */
